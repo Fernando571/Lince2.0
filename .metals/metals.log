@@ -1,0 +1,58 @@
+2026.08.16 00:06:21 INFO  Started: Metals version 1.6.8 in folders '/home/fernando/Desktop/lince-2.0' for client Visual Studio Code 1.101.0.
+2026.08.16 00:06:21 INFO  Memory monitor started
+2026.08.16 00:06:22 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.16 00:06:37 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources -Dbloop.export-meta-build=true bloopInstall'
+2026.08.16 00:06:38 INFO  no build target found for /home/fernando/Desktop/lince-2.0/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.16 00:06:38 WARN  no build target for: /home/fernando/Desktop/lince-2.0/project/metals.sbt
+2026.08.16 00:06:39 INFO  [info] welcome to sbt 1.9.7 (Private Build Java 1.8.0_462)
+2026.08.16 00:06:42 INFO  [info] loading settings for project lince-2-0-build-build-build from metals.sbt ...
+2026.08.16 00:06:42 INFO  [info] loading project definition from /home/fernando/Desktop/lince-2.0/project/project/project
+2026.08.16 00:06:45 INFO  [info] loading settings for project lince-2-0-build-build from metals.sbt ...
+2026.08.16 00:06:45 INFO  [info] loading project definition from /home/fernando/Desktop/lince-2.0/project/project
+2026.08.16 00:06:47 INFO  [success] Generated .bloop/lince-2-0-build-build.json
+2026.08.16 00:06:47 INFO  [success] Total time: 2 s, completed 16/ago/2026 0:06:47
+2026.08.16 00:06:47 INFO  [info] loading settings for project lince-2-0-build from metals.sbt,plugins.sbt ...
+2026.08.16 00:06:47 INFO  [info] loading project definition from /home/fernando/Desktop/lince-2.0/project
+2026.08.16 00:06:49 INFO  [success] Generated .bloop/lince-2-0-build.json
+2026.08.16 00:06:49 INFO  [success] Total time: 1 s, completed 16/ago/2026 0:06:49
+2026.08.16 00:06:50 INFO  [info] loading settings for project lince20 from build.sbt ...
+2026.08.16 00:06:50 INFO  [info] loading settings for project caos from build.sbt ...
+2026.08.16 00:06:50 INFO  [info] set current project to Lince 2.0 (in build file:/home/fernando/Desktop/lince-2.0/)
+2026.08.16 00:06:52 INFO  [success] Generated .bloop/caos.json
+2026.08.16 00:06:52 INFO  [success] Generated .bloop/caos-test.json
+2026.08.16 00:06:52 INFO  [success] Generated .bloop/lince20-test.json
+2026.08.16 00:06:52 INFO  [success] Generated .bloop/lince20.json
+2026.08.16 00:06:52 INFO  [success] Total time: 1 s, completed 16/ago/2026 0:06:52
+2026.08.16 00:06:53 INFO  time: ran 'sbt bloopInstall' in 15s
+2026.08.16 00:06:53 INFO  Attempting to connect to the build server...
+2026.08.16 00:06:53 INFO  Found a Bloop server running
+2026.08.16 00:06:53 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.16 00:06:53 INFO  Attempting to connect to the build server...
+2026.08.16 00:06:53 INFO  Found a Bloop server running
+2026.08.16 00:06:53 INFO  Attempting to connect to the build server...
+2026.08.16 00:06:53 INFO  Found a Bloop server running
+2026.08.16 00:06:53 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.16 00:06:53 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.16 00:06:53 INFO  time: Connected to build server in 0.32s
+2026.08.16 00:06:53 INFO  Connected to Build server: Bloop v2.1.1
+2026.08.16 00:06:58 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.16 00:07:03 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.08.16 00:07:03 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+2026.08.16 00:07:06 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/caos/caos-test-js'
+2026.08.16 00:07:06 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/lib/caos/node_modules
+2026.08.16 00:07:13 INFO  time: indexed workspace in 20s
+2026.08.16 00:07:14 INFO  compiling caos (36 scala sources)
+2026.08.16 00:07:14 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.08.16 00:07:14 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+2026.08.16 00:07:15 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/caos/caos-test-js'
+2026.08.16 00:07:15 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/lib/caos/node_modules
+2026.08.16 00:07:31 INFO  compiling lince20 (14 scala sources)
+2026.08.16 00:07:31 INFO  time: compiled caos in 17s
+2026.08.16 00:07:39 INFO  compiling lince20-test (1 scala source)
+2026.08.16 00:07:39 WARN  package scala contains object and package with same name: caps.
+This indicates that there are several versions of the Scala standard library on the classpath.
+The build should be reconfigured so that only one version of the standard library is on the classpath.
+2026.08.16 00:07:39 INFO  time: compiled lince20 in 8.63s
+2026.08.16 00:07:39 INFO  time: compiled lince20-test in 0.81s
+2026.08.16 00:07:42 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.08.16 00:07:42 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules

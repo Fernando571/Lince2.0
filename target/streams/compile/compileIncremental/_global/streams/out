@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 80 products, 14 sources, 5 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/lince/backend/BigSteps.scala, ${BASE}/src/main/scala/lince/backend/Stream.scala, ${BASE}/src/main/scala/lince/backend/plot/Plot.scala, ${BASE}/src/main/scala/lince/frontend/examples/Basic.scala, ${BASE}/src/main/scala/lince/backend/RungeKutta.scala, ${BASE}/src/main/scala/lince/frontend/Main.scala, ${BASE}/src/main/scala/lince/backend/plot/PlotToJS.scala, ${BASE}/src/main/scala/lince/syntax/Parser.scala, ${BASE}/src/main/scala/lince/backend/Eval.scala, ${BASE}/src/main/scala/lince/syntax/Show.scala, ${BASE}/src/main/scala/lince/syntax/Lince.scala, ${BASE}/src/main/scala/lince/backend/plot/PlotToTrace.scala, ${BASE}/src/main/scala/lince/frontend/CaosConfig.scala, ${BASE}/src/main/scala/lince/backend/SmallStep.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

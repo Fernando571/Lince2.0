@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(fastLinkJS, Some(ad1797ac-e369-4383-a72f-c42612a7c59a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / fastLinkJS[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 36 Scala sources to /home/fernando/Desktop/lince-2.0/lib/caos/target/scala-3.3.7/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Deprecation Warning: /home/fernando/Desktop/lince-2.0/lib/caos/src/main/scala/caos/frontend/Site.scala:81:42 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m81 |[0m    [33mval[0m [36mwidgets[0m = ([33mfor[0m (name,wi) <-config.smallWidgets [33myield[0m (name,wi.moveTo([31m1[0m))) ++ config.widgets[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                   ^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[33mvalue[0m [35msmallWidgets[0m in [33mtrait[0m [35mConfigurator[0m is deprecated: Instead, for each WidgetInfo w, move it using `w.moveTo(1)`.[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 14 Scala sources to /home/fernando/Desktop/lince-2.0/target/scala-3.7.1/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /home/fernando/Desktop/lince-2.0/lib/caos/tool/js/gen[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 213 -- trees read: 1853[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 40 s, completed 16/ago/2026 0:10:22[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
