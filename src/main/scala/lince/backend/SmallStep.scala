@@ -71,12 +71,12 @@ object SmallStep extends SOS[Action,St]:
         // Some(Action.Assign(n,res) ->  st.nextSeed.copy(p = Skip, v = v+(n->res)))
         ress.map((res,ss) =>
           Action.Assign(n,res) ->  st.copy(p = Skip, v = v+(n->res), s = ss))
-      case StreamDef(n, s) =>
+      case StrAssign(n, s) =>
         if st.v contains n then sys.error(s"Stream definition ${Show(st.p)} overriding an existient variable.")
         st.s.get(n) match
           case Some(strm) if strm.keep =>
-                    Some(Action.StrmDef(n,s) -> st.copy(p=Skip))
-          case _ => Some(Action.StrmDef(n,s) -> st.copy(p=Skip,s=st.s+(n->s)))
+                    Some(Action.NewStreams(n,s) -> st.copy(p=Skip))
+          case _ => Some(Action.NewStreams(n,s) -> st.copy(p=Skip,s=st.s+(n->s)))
       case Seq(Skip, q) => step(st.copy(p=q))
       case Seq(p, q) =>
         for (a,st2) <- step(st.copy(p=p))

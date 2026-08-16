@@ -140,7 +140,7 @@ object Parser :
      (string("def") *> sps *> (varName <* sps <* string(":=") <* sps) ~ stream))
       .map(res =>
         val strm = res._2._2(res._1.isDefined)
-        StreamDef(res._2._1,strm)) 
+        StrAssign(res._2._1,strm)) 
 
   def stream: P[Boolean => Stream] =
     // (char('[') *> realnP.repSep(sps *> char(',') *> sps) <* char(']') <* sps <* char(';'))

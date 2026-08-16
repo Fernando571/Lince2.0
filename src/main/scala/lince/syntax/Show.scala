@@ -12,7 +12,7 @@ object Show:
   def apply(p: Program): String = p match
     case Program.Skip => "skip; "
     case Program.Assign(v, e) => s"$v:=${apply(e)}; "
-    case Program.StreamDef(v, s) => s"def $v:=${Show(s)}; "
+    case Program.StrAssign(v, s) => s"def $v:=${Show(s)}; "
     case Program.EqDiff(eqs, dur) if eqs.isEmpty =>
        s"{} for ${dur.map(apply).getOrElse("forever")}; "
     case Program.EqDiff(eqs, dur) =>
@@ -52,7 +52,7 @@ object Show:
 
   def apply(a:Action): String = a match {
     case Action.Assign(v, n) => s"$v:=$n"
-    case Action.StrmDef(v, s) => s"def $v:=${Show(s)}"
+    case Action.NewStreams(v, s) => s"def $v:=${Show(s)}"
     case Action.DiffStop(eqs, time) => s"diff-stop@$time"
     case Action.DiffSkip(eqs, time) => s"diff-skip@$time"
     case Action.CheckIf(b, true) => s"if-true: ${apply(b)}"
