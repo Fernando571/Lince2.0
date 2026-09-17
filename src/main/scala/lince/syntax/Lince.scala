@@ -13,7 +13,7 @@ object Lince:
   enum Program:
     case Skip
     case Assign(v:String, e:Expr)
-    case StrAssign(v:String, s:Stream)
+    case StrAssign(v:String, streams:Stream)
     case EqDiff(eqs:Map[String,Expr], dur:Option[Expr])
     case Seq(p:Program, q:Program)
     case ITE(b:Expr, pt:Program, pf:Program)
@@ -30,7 +30,7 @@ object Lince:
 
   enum Action:
     case Assign(v: String, n:Double)
-    case NewStreams(v: String, s:Stream)
+    case NewStreams(v: String, streams:Stream)
     case DiffStop(eqs: Map[String, Expr], time: Double)
     case DiffSkip(eqs: Map[String, Expr], time: Double)
     case CheckIf(b: Expr, res:Boolean)

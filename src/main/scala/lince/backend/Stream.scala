@@ -26,10 +26,10 @@ object Stream:
     * @param seed the seed for the random number generator
     * @param keep whether to keep the stream in memory (default is true)
     */
-  case class RandomStrm(seed: Long, kp: Boolean = true) extends Stream(kp):
+  case class RandomStream(seed: Long, kp: Boolean = true) extends Stream(kp):
     def pop = 
       val rnd = new Random(seed)
-      Some(Expr.Num(rnd.nextDouble) -> RandomStrm(rnd.nextLong,kp))
+      Some(Expr.Num(rnd.nextDouble) -> RandomStream(rnd.nextLong,kp))
 
   /**
     * Creates a new sequential stream with the given parameters.
@@ -38,23 +38,23 @@ object Stream:
     * @param step the increment between values
     * @param keep whether to keep the stream in memory (default is false)
     */
-  case class SeqStrm(from: Double, to: Option[Double], step: Double, kp: Boolean = false) extends Stream(kp):
+  case class LazyStream(from: Double, to: Option[Double], step: Double, kp: Boolean = false) extends Stream(kp):
     def pop = if to.nonEmpty && from>to.get then None
-              else Some(Expr.Num(from) -> SeqStrm(from+step, to, step, kp))
+              else Some(Expr.Num(from) -> LazyStream(from+step, to, step, kp))
 
   /**
     * Creates a new list stream with the given parameters.
     * @param lst the list of values
     * @param keep whether to keep the stream in memory (default is false)
     */
-  case class ListStrm(lst: List[Double], kp: Boolean = false) extends Stream(kp):
+  case class ListStream(lst: List[Double], kp: Boolean = false) extends Stream(kp):
     def pop = if lst.isEmpty then None
-              else Some(Expr.Num(lst.head) -> ListStrm(lst.tail,kp))
+              else Some(Expr.Num(lst.head) -> ListStream(lst.tail,kp))
 
   /**
     * Creates a new expression stream with the given parameters.
     * @param e the expression
     * @param keep whether to keep the stream in memory (default is false)
     */
-  case class ExprStrm(e:Expr, kp: Boolean = false) extends Stream(kp):
+  case class ExprStream(e:Expr, kp: Boolean = false) extends Stream(kp):
     def pop = Some(e,this)

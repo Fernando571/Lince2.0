@@ -4,7 +4,7 @@ import caos.sos.SOS
 import lince.backend.Eval.Valuation
 import lince.backend.SmallStep.St
 import lince.backend.Stream
-import Stream.{Streams,RandomStrm,SeqStrm,ListStrm,ExprStrm}
+import Stream.{Streams,RandomStream,LazyStream,ListStream,ExprStream}
 import lince.syntax.{Lince, Show}
 import lince.syntax.Lince.*
 import Program.*
@@ -30,7 +30,7 @@ object SmallStep extends SOS[Action,St]:
     */
   def initial(si: Simulation) =
     St(si.prog,Map(),
-       Map("unif" -> RandomStrm((si.pi.seed))), //+(si.pi.runs-1)))),
+       Map("unif" -> RandomStream((si.pi.seed))), //+(si.pi.runs-1)))),
        si.pi.maxTime,si.pi.maxLoops)
 
   // // streams in the state

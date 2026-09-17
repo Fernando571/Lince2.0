@@ -165,3 +165,847 @@ WARNING: Unmatched cancel notification for request id 817
 2026.08.16 22:09:20 INFO  time: compiled lince20 in 1.47s
 2026.08.16 22:09:20 INFO  compiling lince20 (14 scala sources)
 2026.08.16 22:09:23 INFO  time: compiled lince20 in 2.6s
+ago. 16, 2026 10:18:29 DA TARDE org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.08.17 00:15:19 INFO  Shutting down server
+2026.08.17 00:15:19 INFO  Memory monitor stopped
+2026.08.17 00:15:19 INFO  shutting down Metals
+2026.08.17 00:15:19 INFO  Shut down connection with build server.
+2026.08.17 00:15:19 INFO  Shut down connection with build server.
+2026.08.17 00:15:19 INFO  Shut down connection with build server.
+2026.08.17 00:15:19 INFO  Exiting server
+2026.08.18 20:41:02 INFO  Started: Metals version 1.6.8 in folders '/home/fernando/Desktop/lince-2.0' for client Visual Studio Code 1.101.0.
+2026.08.18 20:41:02 INFO  Memory monitor started
+2026.08.18 20:41:02 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.18 20:41:03 INFO  Attempting to connect to the build server...
+2026.08.18 20:41:03 INFO  No running Bloop server found, starting one.
+2026.08.18 20:41:04 INFO  Starting compilation server
+2026.08.18 20:41:06 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.18 20:41:07 INFO  Attempting to connect to the build server...
+2026.08.18 20:41:07 INFO  Found a Bloop server running
+2026.08.18 20:41:07 INFO  Attempting to connect to the build server...
+2026.08.18 20:41:07 INFO  Found a Bloop server running
+2026.08.18 20:41:07 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.18 20:41:07 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.18 20:41:07 INFO  time: Connected to build server in 4.1s
+2026.08.18 20:41:07 INFO  Connected to Build server: Bloop v2.1.1
+2026.08.18 20:41:08 INFO  time: Imported build in 0.18s
+2026.08.18 20:41:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.18 20:41:13 INFO  time: indexed workspace in 5.05s
+2026.08.18 20:41:13 INFO  compiling lince20-test (1 scala source)
+2026.08.18 20:41:14 WARN  package scala contains object and package with same name: caps.
+This indicates that there are several versions of the Scala standard library on the classpath.
+The build should be reconfigured so that only one version of the standard library is on the classpath.
+2026.08.18 20:41:17 INFO  time: compiled lince20-test in 4.16s
+2026.08.18 20:41:23 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.08.18 20:41:23 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+2026.08.18 20:55:28 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.08.18 20:55:28 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+2026.08.18 20:55:30 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/caos/caos-test-js'
+2026.08.18 20:55:30 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/lib/caos/node_modules
+2026.08.22 13:20:59 INFO  Started: Metals version 1.6.8 in folders '/home/fernando/Desktop/lince-2.0' for client Visual Studio Code 1.101.0.
+2026.08.22 13:20:59 INFO  Memory monitor started
+2026.08.22 13:21:03 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.22 13:21:03 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+ago. 22, 2026 1:21:05 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.08.22 13:21:05 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.22 13:21:05 INFO  Attempting to connect to the build server...
+2026.08.22 13:21:05 INFO  No running Bloop server found, starting one.
+2026.08.22 13:21:05 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.22 13:21:05 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.22 13:21:06 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.22 13:21:06 INFO  Starting compilation server
+2026.08.22 13:21:08 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.22 13:21:10 INFO  Attempting to connect to the build server...
+2026.08.22 13:21:10 INFO  Found a Bloop server running
+2026.08.22 13:21:10 INFO  Attempting to connect to the build server...
+2026.08.22 13:21:10 INFO  Found a Bloop server running
+2026.08.22 13:21:10 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.22 13:21:10 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.22 13:21:10 INFO  time: Connected to build server in 5.09s
+2026.08.22 13:21:10 INFO  Connected to Build server: Bloop v2.1.1
+2026.08.22 13:21:10 INFO  time: Imported build in 0.16s
+2026.08.22 13:21:17 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.22 13:21:18 INFO  time: indexed workspace in 8.46s
+2026.08.22 13:21:26 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.08.22 13:21:26 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+2026.08.22 13:34:59 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.08.22 13:34:59 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+2026.08.22 13:35:02 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/caos/caos-test-js'
+2026.08.22 13:35:02 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/lib/caos/node_modules
+2026.08.22 13:35:40 INFO  compiling lince20 (14 scala sources)
+2026.08.22 13:35:53 INFO  time: compiled lince20 in 13s
+2026.08.22 13:37:10 INFO  compiling lince20 (14 scala sources)
+2026.08.22 13:37:16 INFO  time: compiled lince20 in 5.39s
+ago. 22, 2026 1:42:37 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:220)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:133)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+ago. 22, 2026 1:42:37 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:315)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:220)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.HoverProvider$.$anonfun$3(HoverProvider.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:133)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.08.22 13:42:48 INFO  compiling lince20 (1 scala source)
+2026.08.22 13:42:48 INFO  time: compiled lince20 in 0.48s
+2026.08.22 13:42:59 INFO  compiling lince20 (1 scala source)
+2026.08.22 13:42:59 INFO  time: compiled lince20 in 0.23s
+2026.08.22 13:43:56 INFO  compiling lince20 (2 scala sources)
+2026.08.22 13:43:57 INFO  time: compiled lince20 in 1.22s
+2026.08.22 13:44:12 INFO  compiling lince20 (2 scala sources)
+2026.08.22 13:44:12 INFO  time: compiled lince20 in 0.64s
+2026.08.22 13:46:01 INFO  compiling lince20 (3 scala sources)
+2026.08.22 13:46:02 INFO  time: compiled lince20 in 1.09s
+ago. 22, 2026 1:48:05 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:220)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:317)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:321)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$3(ShortenedTypePrinter.scala:338)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:489)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$2(ShortenedTypePrinter.scala:340)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:326)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:325)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:350)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:244)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:128)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+ago. 22, 2026 1:48:05 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:315)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:220)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:317)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:321)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$3(ShortenedTypePrinter.scala:338)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:489)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$2(ShortenedTypePrinter.scala:340)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:326)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:325)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:350)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:244)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:128)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+ago. 22, 2026 1:48:05 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:220)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:242)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:242)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:317)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:321)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$3(ShortenedTypePrinter.scala:338)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:489)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$2(ShortenedTypePrinter.scala:340)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:326)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:325)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:350)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:244)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:128)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+ago. 22, 2026 1:48:05 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:315)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:220)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:220)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:242)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:242)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:317)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:321)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$3(ShortenedTypePrinter.scala:338)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:489)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$2(ShortenedTypePrinter.scala:340)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:326)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:325)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:350)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:244)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:128)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.08.22 13:48:30 INFO  compiling lince20 (4 scala sources)
+2026.08.22 13:48:30 INFO  time: compiled lince20 in 0.89s
+2026.08.22 13:49:04 INFO  compiling lince20 (4 scala sources)
+2026.08.22 13:49:05 INFO  time: compiled lince20 in 1.11s
+2026.08.22 13:49:05 INFO  compiling lince20 (14 scala sources)
+2026.08.22 13:49:07 INFO  time: compiled lince20 in 2.7s
+ago. 22, 2026 2:18:35 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 752
+2026.08.22 14:41:25 INFO  compiling lince20 (1 scala source)
+2026.08.22 14:41:25 INFO  time: compiled lince20 in 0.45s
+2026.08.22 14:41:25 INFO  compiling lince20 (14 scala sources)
+2026.08.22 14:41:29 INFO  time: compiled lince20 in 2.77s
+ago. 22, 2026 2:41:38 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:236)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:231)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:906)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:231)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:317)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:321)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$3(ShortenedTypePrinter.scala:338)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:489)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$2(ShortenedTypePrinter.scala:340)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:326)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:325)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:350)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:244)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:128)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+ago. 22, 2026 2:41:38 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:315)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:236)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:231)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:906)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:231)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:317)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:321)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$3(ShortenedTypePrinter.scala:338)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:489)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$2(ShortenedTypePrinter.scala:340)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:326)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:325)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:350)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:244)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:128)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+ago. 22, 2026 2:41:38 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:236)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:231)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:906)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:231)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:242)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:242)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:317)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:321)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$3(ShortenedTypePrinter.scala:338)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:489)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$2(ShortenedTypePrinter.scala:340)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:326)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:325)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:350)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:244)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:128)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+ago. 22, 2026 2:41:38 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:315)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:236)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:231)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:906)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:231)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:242)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:242)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$lzyINIT1$1(ShortenedTypePrinter.scala:317)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramsDocs$1(ShortenedTypePrinter.scala:321)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$3(ShortenedTypePrinter.scala:338)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.paramLabel(ShortenedTypePrinter.scala:489)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.$anonfun$2(ShortenedTypePrinter.scala:340)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1$$anonfun$1(ShortenedTypePrinter.scala:326)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.label$1(ShortenedTypePrinter.scala:325)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.defaultMethodSignature(ShortenedTypePrinter.scala:350)
+	at dotty.tools.pc.printer.ShortenedTypePrinter.hoverSymbol(ShortenedTypePrinter.scala:244)
+	at dotty.tools.pc.HoverProvider$.hover(HoverProvider.scala:128)
+	at dotty.tools.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:433)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.08.22 14:42:26 INFO  compiling lince20 (2 scala sources)
+2026.08.22 14:42:26 INFO  time: compiled lince20 in 0.65s
+ago. 22, 2026 2:43:01 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:236)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:231)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:906)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:231)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.CompletionItemResolver$.docs$1(CompletionItemResolver.scala:53)
+	at dotty.tools.pc.CompletionItemResolver$.fullDocstring(CompletionItemResolver.scala:77)
+	at dotty.tools.pc.CompletionItemResolver$.resolve$$anonfun$2(CompletionItemResolver.scala:38)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs(ItemResolver.scala:76)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs$(ItemResolver.scala:11)
+	at dotty.tools.pc.CompletionItemResolver$.enrichDocs(CompletionItemResolver.scala:16)
+	at dotty.tools.pc.CompletionItemResolver$.resolve(CompletionItemResolver.scala:39)
+	at dotty.tools.pc.ScalaPresentationCompiler.completionItemResolve$$anonfun$1(ScalaPresentationCompiler.scala:293)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+ago. 22, 2026 2:43:01 DA TARDE scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+java.nio.file.NoSuchFileException: /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Streams.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:512)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:101)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:304)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:315)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:236)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:231)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:936)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:906)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:231)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:193)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:143)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:143)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:47)
+	at dotty.tools.pc.utils.InteractiveEnrichments$.symbolDocumentation(InteractiveEnrichments.scala:286)
+	at dotty.tools.pc.CompletionItemResolver$.docs$1(CompletionItemResolver.scala:53)
+	at dotty.tools.pc.CompletionItemResolver$.fullDocstring(CompletionItemResolver.scala:77)
+	at dotty.tools.pc.CompletionItemResolver$.resolve$$anonfun$2(CompletionItemResolver.scala:38)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs(ItemResolver.scala:76)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs$(ItemResolver.scala:11)
+	at dotty.tools.pc.CompletionItemResolver$.enrichDocs(CompletionItemResolver.scala:16)
+	at dotty.tools.pc.CompletionItemResolver$.resolve(CompletionItemResolver.scala:39)
+	at dotty.tools.pc.ScalaPresentationCompiler.completionItemResolve$$anonfun$1(ScalaPresentationCompiler.scala:293)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:149)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:133)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:210)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2026.08.22 14:43:14 INFO  compiling lince20 (2 scala sources)
+2026.08.22 14:43:14 INFO  time: compiled lince20 in 0.91s
+2026.08.22 14:43:14 INFO  compiling lince20 (14 scala sources)
+2026.08.22 14:43:17 INFO  time: compiled lince20 in 2.02s
+ago. 22, 2026 2:43:35 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1271
+2026.08.22 14:44:48 INFO  compiling lince20 (3 scala sources)
+2026.08.22 14:44:49 INFO  time: compiled lince20 in 1.25s
+2026.08.22 14:44:49 INFO  compiling lince20 (14 scala sources)
+2026.08.22 14:44:49 INFO  time: compiled lince20 in 0.95s
+2026.08.22 14:44:50 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala
+2026.08.22 14:45:22 INFO  compiling lince20 (4 scala sources)
+2026.08.22 14:45:23 INFO  time: compiled lince20 in 1.02s
+2026.08.22 14:45:23 INFO  compiling lince20 (14 scala sources)
+2026.08.22 14:45:23 INFO  time: compiled lince20 in 0.72s
+2026.08.22 14:45:24 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Eval.scala
+ago. 22, 2026 2:45:30 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1461
+2026.08.22 14:45:45 INFO  compiling lince20 (5 scala sources)
+2026.08.22 14:45:46 INFO  time: compiled lince20 in 1.13s
+2026.08.22 14:45:46 INFO  compiling lince20 (14 scala sources)
+2026.08.22 14:45:49 INFO  time: compiled lince20 in 2.14s
+2026.08.22 14:56:30 INFO  Created report: Optional[file:///home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/SmallStep.scala]
+2026.08.22 14:56:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/fernando/Desktop/lince-2.0/.metals/.reports/metals-full/2026-08-22/r_empty-definition_(lince20)_14-56-30-909.md")
+2026.08.22 14:56:31 INFO  compiling lince20 (1 scala source)
+2026.08.22 14:56:31 INFO  time: compiled lince20 in 0.16s
+2026.08.22 14:58:22 INFO  compiling lince20 (2 scala sources)
+2026.08.22 14:58:22 INFO  time: compiled lince20 in 0.22s
+2026.08.22 14:58:48 INFO  compiling lince20 (2 scala sources)
+2026.08.22 14:58:48 INFO  time: compiled lince20 in 0.16s
+2026.08.22 14:59:37 INFO  compiling lince20 (3 scala sources)
+2026.08.22 14:59:37 INFO  time: compiled lince20 in 0.22s
+2026.08.22 14:59:37 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.08.22 14:59:50 INFO  compiling lince20 (3 scala sources)
+2026.08.22 14:59:50 INFO  time: compiled lince20 in 0.48s
+2026.08.22 14:59:50 INFO  compiling lince20 (14 scala sources)
+2026.08.22 14:59:52 INFO  time: compiled lince20 in 1.47s
+2026.08.22 15:00:11 INFO  compiling lince20 (4 scala sources)
+2026.08.22 15:00:11 INFO  time: compiled lince20 in 0.38s
+2026.08.22 15:00:34 INFO  compiling lince20 (4 scala sources)
+2026.08.22 15:00:34 INFO  time: compiled lince20 in 0.47s
+2026.08.22 15:00:34 INFO  compiling lince20 (14 scala sources)
+2026.08.22 15:00:36 INFO  time: compiled lince20 in 0.57s
+2026.08.22 15:01:25 INFO  compiling lince20 (5 scala sources)
+2026.08.22 15:01:25 INFO  time: compiled lince20 in 0.43s
+2026.08.22 15:01:26 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Parser.scala
+2026.08.22 15:01:39 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Parser.scala
+2026.08.22 15:01:39 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Parser.scala
+2026.08.22 15:01:43 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Parser.scala
+2026.08.22 15:01:47 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Parser.scala
+2026.08.22 15:01:49 INFO  compiling lince20 (5 scala sources)
+2026.08.22 15:01:49 INFO  time: compiled lince20 in 0.84s
+2026.08.22 15:01:49 INFO  compiling lince20 (14 scala sources)
+2026.08.22 15:01:52 INFO  time: compiled lince20 in 1.83s
+2026.08.22 15:11:27 INFO  compiling lince20 (1 scala source)
+2026.08.22 15:11:27 INFO  time: compiled lince20 in 0.45s
+2026.08.22 15:11:27 INFO  compiling lince20 (3 scala sources)
+2026.08.22 15:11:28 INFO  time: compiled lince20 in 0.83s
+2026.08.22 15:11:47 INFO  compiling lince20 (1 scala source)
+2026.08.22 15:11:47 INFO  time: compiled lince20 in 0.35s
+2026.08.22 15:11:47 INFO  compiling lince20 (2 scala sources)
+2026.08.22 15:11:47 INFO  time: compiled lince20 in 0.32s
+2026.08.24 21:54:20 INFO  Started: Metals version 1.6.8 in folders '/home/fernando/Desktop/lince-2.0' for client Visual Studio Code 1.101.0.
+2026.08.24 21:54:20 INFO  Memory monitor started
+2026.08.24 21:54:24 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.24 21:54:24 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+ago. 24, 2026 9:54:26 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.08.24 21:54:26 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.24 21:54:26 INFO  Attempting to connect to the build server...
+2026.08.24 21:54:26 INFO  No running Bloop server found, starting one.
+2026.08.24 21:54:26 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.24 21:54:26 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.24 21:54:26 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Show.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.08.24 21:54:27 INFO  Starting compilation server
+2026.08.24 21:54:28 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.24 21:54:29 INFO  Attempting to connect to the build server...
+2026.08.24 21:54:29 INFO  Found a Bloop server running
+2026.08.24 21:54:29 INFO  Attempting to connect to the build server...
+2026.08.24 21:54:29 INFO  Found a Bloop server running
+2026.08.24 21:54:29 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.24 21:54:29 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.08.24 21:54:29 INFO  time: Connected to build server in 3.43s
+2026.08.24 21:54:30 INFO  Connected to Build server: Bloop v2.1.1
+2026.08.24 21:54:30 INFO  time: Imported build in 0.16s
+2026.08.24 21:54:36 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.08.24 21:54:37 INFO  time: indexed workspace in 7.42s
+2026.08.24 21:54:43 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.08.24 21:54:43 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+2026.08.24 22:03:10 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.08.24 22:03:10 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+2026.08.24 22:03:12 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/caos/caos-test-js'
+2026.08.24 22:03:12 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/lib/caos/node_modules
+2026.08.24 22:31:13 INFO  compiling lince20 (1 scala source)
+2026.08.24 22:31:18 INFO  time: compiled lince20 in 4.46s
+2026.08.24 22:57:10 INFO  Shutting down server
+2026.08.24 22:57:10 INFO  Memory monitor stopped
+2026.08.24 22:57:10 INFO  shutting down Metals
+2026.08.24 22:57:10 INFO  Shut down connection with build server.
+2026.08.24 22:57:10 INFO  Shut down connection with build server.
+2026.08.24 22:57:10 INFO  Shut down connection with build server.
+2026.08.24 22:57:10 INFO  Exiting server
+2026.09.17 21:15:01 INFO  Started: Metals version 1.6.8 in folders '/home/fernando/Desktop/lince-2.0' for client Visual Studio Code 1.101.0.
+2026.09.17 21:15:01 INFO  Memory monitor started
+2026.09.17 21:15:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.17 21:15:01 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/frontend/examples/Basic.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.17 21:15:03 INFO  Attempting to connect to the build server...
+2026.09.17 21:15:03 INFO  No running Bloop server found, starting one.
+2026.09.17 21:15:04 INFO  Starting compilation server
+2026.09.17 21:15:04 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/frontend/examples/Basic.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.17 21:15:04 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/frontend/examples/Basic.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.17 21:15:04 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/frontend/examples/Basic.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.17 21:15:06 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.09.17 21:15:06 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/frontend/examples/Basic.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.17 21:15:07 INFO  Attempting to connect to the build server...
+2026.09.17 21:15:07 INFO  Found a Bloop server running
+2026.09.17 21:15:07 INFO  Attempting to connect to the build server...
+2026.09.17 21:15:07 INFO  Found a Bloop server running
+2026.09.17 21:15:07 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.09.17 21:15:07 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.09.17 21:15:07 INFO  time: Connected to build server in 4.39s
+2026.09.17 21:15:07 INFO  Connected to Build server: Bloop v2.1.1
+2026.09.17 21:15:07 INFO  time: Imported build in 0.17s
+2026.09.17 21:15:11 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.17 21:15:12 INFO  time: indexed workspace in 4.89s
+2026.09.17 21:15:21 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.09.17 21:15:21 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules

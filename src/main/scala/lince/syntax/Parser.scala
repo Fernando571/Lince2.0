@@ -6,7 +6,7 @@ import cats.parse.{LocationMap, Parser as P, Parser0 as P0}
 import lince.syntax.Lince.{Expr, PlotInfo, Program, Simulation}
 import Program.*
 import lince.backend.Stream
-import Stream.{Streams,ListStrm,SeqStrm,ExprStrm}
+import Stream.{Streams,ListStream,LazyStream,ExprStream}
 import caos.frontend.widgets.WidgetInfo.Simulate
 
 import scala.sys.{env, error}
@@ -147,7 +147,7 @@ object Parser :
     //   .map(x => ListStrm(x.toList,false)) |
     (char('[') *> sps *> (seqOrList <* sps <* char(';'))) |
     (expr <* sps <* char(';'))
-      .map(e => kp => ExprStrm(e,kp))
+      .map(e => kp => ExprStream(e,kp))
 
   // parses either:
   //   a real number,
@@ -156,19 +156,19 @@ object Parser :
   //   a range of real numbers of real numbers with a step size (e.g., `1.0,1.5,...,5.0`), or
   //   an open-ended range of real numbers (e.g., `1.0,...` or `1.0,1.5,...`).
   def seqOrList: P[Boolean => Stream] =
-    (char(']')).as(ListStrm(Nil,_)) |
+    (char(']')).as(ListStream(Nil,_)) |
     (realnP.repSep0(sps *> char(',') *> sps).with1 <* char(']'))
-      .map(x => ListStrm(x.toList,_)).backtrack |
+      .map(x => ListStream(x.toList,_)).backtrack |
     (realnP ~ (sps *> char(',') *> sps *> string("...") *> sps *>
       (char(',') *> sps *> realnP).?) <* char(']'))
       .map{
-        case (from,to) => SeqStrm(from,to,1.0,_)
+        case (from,to) => LazyStream(from,to,1.0,_)
       }.backtrack |
     (realnP ~ (sps *> char(',') *> sps *> realnP) ~
       (sps *> char(',') *> sps *> string("...") *> sps *>
       (char(',') *> sps *> realnP).?) <* char(']'))
       .map{
-        case ((from1,from2),to) => SeqStrm(from1,to,from2-from1,_)
+        case ((from1,from2),to) => LazyStream(from1,to,from2-from1,_)
       }
 
     // (realnP ~ (sps *> char(',') *> sps *> string("...") *> sps *> char(',') *>

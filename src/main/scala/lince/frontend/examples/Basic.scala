@@ -54,6 +54,14 @@ object Basic:
     "Inverted pendulum"
       -> "theta := 0.1;\na := 0;\ntheta' = a,\n    a' = -sin(theta) + 0.5 for 10;\n---\nuntil 10\nsamples 200"
       -> "Inverted pendulum example. A pendulum that is trying to stay upright by applying a constant torque (0.5). The system is unstable and the pendulum will eventually fall, but it can stay upright for a while depending on the initial conditions.",
+    
+    "Car speed - Stream"
+      -> "// Car speed using an acceleration stream\n@keep def acc := [0,1,2,3,4,...];\nv := 0;\np := 0;\na := acc;\n\nwhile true do {\n  p'=v, v'=a for 1;\n  a := acc;\n}\n---\nuntil 5"
+      -> "Simulation of a car where the acceleration is obtained from a sequential stream. The velocity and position are computed using differential equations.",
+
+    "Car speed - 5 runs"
+      -> "// Car speed with multiple executions\n@keep def acc := [0,1,2,3,4,...];\nv := 0;\np := 0;\na := acc;\n\nwhile true do {\n  p'=v, v'=a for 1;\n  a := acc;\n}\n---\nuntil 5\nruns 5"
+      -> "Simulation of a car using an acceleration stream over five independent executions.",
     // "RLC circuit"
     //   -> "v := 10; i := 0;\nv' = 0, i' = v - 2*i for 5;\n---\nuntil 5\nsamples 100"
     //   -> "RLC circuit example. The voltage (v) and current (i) in a simple RLC circuit, where the voltage is constant and the current changes according to the voltage and its own value.",
