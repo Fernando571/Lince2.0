@@ -4,7 +4,7 @@ import caos.sos.SOS
 import lince.backend.Eval.Valuation
 import lince.backend.SmallStep.St
 import lince.backend.Stream
-import Stream.{Streams,RandomStream,LazyStream,ListStream,ExprStream}
+import Stream.{Streams,RandomStream,RangeStream,LazyStream,ImpStream}
 import lince.syntax.{Lince, Show}
 import lince.syntax.Lince.*
 import Program.*

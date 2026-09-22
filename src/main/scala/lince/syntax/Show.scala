@@ -2,7 +2,7 @@ package lince.syntax
 
 import lince.syntax.Lince.*
 import lince.backend.Stream
-import lince.backend.Stream.{ExprStream,ListStream,LazyStream,RandomStream}
+import lince.backend.Stream.{ImpStream,LazyStream,RangeStream,RandomStream}
 
 /**
  * List of functions to produce textual representations of commands
@@ -39,9 +39,9 @@ object Show:
       s"$op(${es.map(apply).mkString(", ")})"
 
   def apply(s:Stream): String = s match
-    case ExprStream(e,k) => apply(e)+keep(s)
-    case ListStream(l,k) => l.mkString("[",",","]")+keep(s)
-    case LazyStream(from,to,by,k) => s"[$from,..,${to.map(_.toString).getOrElse("inf")} by $by]"+keep(s)
+    case ImpStream(e,k) => apply(e)+keep(s)
+    case LazyStream(l,k) => l.mkString("[",",","]")+keep(s)
+    case RangeStream(from,to,by,k) => s"[$from,..,${to.map(_.toString).getOrElse("inf")} by $by]"+keep(s)
     case RandomStream(seed,k) => s"${seed % 1000}${if seed<1000 && seed> -1000 then "" else ".."}"//+keep(s)
   private def keep(s:Stream): String = if s.keep then "@k" else ""
   

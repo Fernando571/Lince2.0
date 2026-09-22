@@ -38,23 +38,23 @@ object Stream:
     * @param step the increment between values
     * @param keep whether to keep the stream in memory (default is false)
     */
-  case class LazyStream(from: Double, to: Option[Double], step: Double, kp: Boolean = false) extends Stream(kp):
+  case class RangeStream(from: Double, to: Option[Double], step: Double, kp: Boolean = false) extends Stream(kp):
     def pop = if to.nonEmpty && from>to.get then None
-              else Some(Expr.Num(from) -> LazyStream(from+step, to, step, kp))
+              else Some(Expr.Num(from) -> RangeStream(from+step, to, step, kp))
 
   /**
     * Creates a new list stream with the given parameters.
     * @param lst the list of values
     * @param keep whether to keep the stream in memory (default is false)
     */
-  case class ListStream(lst: List[Double], kp: Boolean = false) extends Stream(kp):
+  case class LazyStream(lst: List[Double], kp: Boolean = false) extends Stream(kp):
     def pop = if lst.isEmpty then None
-              else Some(Expr.Num(lst.head) -> ListStream(lst.tail,kp))
+              else Some(Expr.Num(lst.head) -> LazyStream(lst.tail,kp))
 
   /**
     * Creates a new expression stream with the given parameters.
     * @param e the expression
     * @param keep whether to keep the stream in memory (default is false)
     */
-  case class ExprStream(e:Expr, kp: Boolean = false) extends Stream(kp):
+  case class ImpStream(e:Expr, kp: Boolean = false) extends Stream(kp):
     def pop = Some(e,this)

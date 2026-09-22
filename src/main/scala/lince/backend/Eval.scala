@@ -3,7 +3,7 @@ package lince.backend
 import lince.syntax.{Lince, Show}
 import Lince.Expr
 import lince.backend.Stream
-import Stream.{Streams,RandomStream,LazyStream,ListStream,ExprStream}
+import Stream.{Streams,RandomStream,RangeStream,LazyStream,ImpStream}
 
 
 import scala.util.Random
