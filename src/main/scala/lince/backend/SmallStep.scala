@@ -96,11 +96,11 @@ object SmallStep extends SOS[Action,St]:
         var ss = st.s
         var stop = false
         val eqs2 = for (v,e) <- eqs yield
-          Eval.evalStreams(e,ss) match
+          Eval.evalStream(e,ss) match
             case None => {stop = true; (v,e)}
             case Some((e2,ss2)) => {ss = ss2; (v,e2)}
         val durExp2 = durExp.map(d =>
-          Eval.evalStreams(d,ss) match
+          Eval.evalStream(d,ss) match
             case None => {stop = true; d}
             case Some((d2,ss2)) => {ss = ss2; d2}
         )

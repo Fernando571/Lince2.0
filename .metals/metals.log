@@ -1176,3 +1176,51 @@ WARNING: Unmatched cancel notification for request id 2194
 2026.09.22 21:27:28 INFO  time: compiled lince20 in 0.86s
 2026.09.22 21:27:28 INFO  compiling lince20 (14 scala sources)
 2026.09.22 21:27:30 INFO  time: compiled lince20 in 1.52s
+2026.09.22 22:01:08 INFO  compiling lince20 (1 scala source)
+2026.09.22 22:01:08 INFO  time: compiled lince20 in 0.18s
+2026.09.22 22:01:09 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Eval.scala
+2026.09.22 22:01:15 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Eval.scala
+2026.09.22 22:01:20 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Eval.scala
+2026.09.22 22:01:24 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Eval.scala
+2026.09.22 22:01:34 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Eval.scala
+2026.09.22 22:01:35 INFO  compiling lince20 (1 scala source)
+2026.09.22 22:01:35 INFO  time: compiled lince20 in 0.32s
+2026.09.22 22:01:35 INFO  compiling lince20 (2 scala sources)
+2026.09.22 22:01:35 INFO  time: compiled lince20 in 0.39s
+2026.09.22 22:01:36 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Eval.scala
+2026.09.22 22:01:57 INFO  compiling lince20 (2 scala sources)
+2026.09.22 22:01:57 INFO  time: compiled lince20 in 0.4s
+set. 22, 2026 10:23:45 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4519
+set. 22, 2026 10:23:56 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4564
+set. 22, 2026 10:25:30 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4755
+2026.09.22 22:26:28 INFO  compiling lince20 (1 scala source)
+2026.09.22 22:26:28 INFO  time: compiled lince20 in 0.46s
+2026.09.22 22:26:29 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:01 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:02 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:02 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:04 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:07 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:07 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:08 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:10 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:18 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:18 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:19 WARN  Could not load snapshot text for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/backend/Stream.scala
+2026.09.22 22:27:24 INFO  compiling lince20 (1 scala source)
+2026.09.22 22:27:24 INFO  time: compiled lince20 in 0.34s
+2026.09.22 22:43:19 INFO  compiling lince20 (1 scala source)
+2026.09.22 22:43:19 INFO  time: compiled lince20 in 0.28s
+2026.09.22 22:43:19 INFO  compiling lince20 (4 scala sources)
+2026.09.22 22:43:20 INFO  time: compiled lince20 in 0.78s
+2026.09.22 22:45:04 INFO  compiling lince20 (1 scala source)
+2026.09.22 22:45:04 INFO  time: compiled lince20 in 0.23s
+2026.09.22 22:45:04 INFO  compiling lince20 (4 scala sources)
+2026.09.22 22:45:05 INFO  time: compiled lince20 in 0.79s
+2026.09.22 22:45:25 INFO  compiling lince20 (1 scala source)
+2026.09.22 22:45:25 INFO  time: compiled lince20 in 0.2s
+2026.09.22 22:45:25 INFO  compiling lince20 (4 scala sources)
+2026.09.22 22:45:25 INFO  time: compiled lince20 in 0.63s

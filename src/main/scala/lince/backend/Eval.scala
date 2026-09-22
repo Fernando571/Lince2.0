@@ -91,15 +91,15 @@ object Eval:
 
   def apply(e:Expr,ss:Streams)(using v:MValuation)
         : Option[(Double | Boolean , Streams)] =
-    evalStreams(e,ss).map((e,ss2) => (apply(e),ss2))
+    evalStream(e,ss).map((e,ss2) => (apply(e),ss2))
 
   def asBoolean(e:Expr,ss:Streams)(using v:MValuation)
         : Option[(Boolean , Streams)] =
-    evalStreams(e,ss).map((e,ss2) => (asBoolean(e),ss2))
+    evalStream(e,ss).map((e,ss2) => (asBoolean(e),ss2))
 
   def asDouble(e:Expr,ss:Streams)(using v:MValuation)
         : Option[(Double , Streams)] =
-    evalStreams(e,ss).map((e,ss2) => (asDouble(e),ss2))
+    evalStream(e,ss).map((e,ss2) => (asDouble(e),ss2))
 
 
   // def evalStreams(e:Expr, ss:Strms): Option[(Expr,Strms)] =
@@ -107,18 +107,18 @@ object Eval:
   //   println(s"[DEBUG] ${Show(e)} ===> ${Show(res.getOrElse((e,ss))._1)} (knowing ${ss.keys.mkString(",")})")
   //   res
 
-  def evalStreams(e:Expr, ss:Streams): Option[(Expr,Streams)] = e match
+  def evalStream(e:Expr, ss:Streams): Option[(Expr,Streams)] = e match
     case Expr.Var(x:String) if ss contains x => ss(x).pop match
       case Some((e2,s2)) =>
-        evalStreams(e2, ss-x).map((e3,ss3) => (e3,ss3+(x->s2)))
+        evalStream(e2, ss-x).map((e3,ss3) => (e3,ss3+(x->s2)))
       case None => None
     case Expr.Func(op:String, Nil) if ss contains op =>
-      evalStreams(Expr.Var(op),ss)
+      evalStream(Expr.Var(op),ss)
     case Expr.Func(op:String, es:List[Expr]) =>
       var newss = ss-op
       var stop = false
       val newes = for e <- es yield
-        evalStreams(e, newss) match
+        evalStream(e, newss) match
           case None =>
             stop = true
             e

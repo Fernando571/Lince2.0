@@ -8,6 +8,7 @@ import Stream.*
   * Represents an immutable stream of values.
   * A stream is a potentially infinite sequence of values that can be generated on demand. The `pop` method returns the next value in the stream along with the updated stream.
   */
+
 sealed trait Stream(val keep: Boolean = false):
   /**
     * Returns the next value in the stream along with the updated stream.
@@ -26,10 +27,10 @@ object Stream:
     * @param seed the seed for the random number generator
     * @param keep whether to keep the stream in memory (default is true)
     */
-  case class RandomStream(seed: Long, kp: Boolean = true) extends Stream(kp):
+  case class RandomStream(seed: Long, retain: Boolean = true) extends Stream(retain):
     def pop = 
       val rnd = new Random(seed)
-      Some(Expr.Num(rnd.nextDouble) -> RandomStream(rnd.nextLong,kp))
+      Some(Expr.Num(rnd.nextDouble) -> RandomStream(rnd.nextLong,retain))
 
   /**
     * Creates a new sequential stream with the given parameters.
@@ -38,23 +39,24 @@ object Stream:
     * @param step the increment between values
     * @param keep whether to keep the stream in memory (default is false)
     */
-  case class RangeStream(from: Double, to: Option[Double], step: Double, kp: Boolean = false) extends Stream(kp):
-    def pop = if to.nonEmpty && from>to.get then None
-              else Some(Expr.Num(from) -> RangeStream(from+step, to, step, kp))
+  case class RangeStream(start: Double, end: Option[Double], step: Double, retain: Boolean = false) extends Stream(retain):
+    def pop = if end.nonEmpty && start>end.get then None
+              else Some(Expr.Num(start) -> RangeStream(start+step, end, step, retain))
 
   /**
     * Creates a new list stream with the given parameters.
     * @param lst the list of values
     * @param keep whether to keep the stream in memory (default is false)
     */
-  case class LazyStream(lst: List[Double], kp: Boolean = false) extends Stream(kp):
+  case class LazyStream(lst: List[Double], retain: Boolean = false) extends Stream(retain):
     def pop = if lst.isEmpty then None
-              else Some(Expr.Num(lst.head) -> LazyStream(lst.tail,kp))
+              else Some(Expr.Num(lst.head) -> LazyStream(lst.tail,retain))
 
   /**
     * Creates a new expression stream with the given parameters.
     * @param e the expression
     * @param keep whether to keep the stream in memory (default is false)
     */
-  case class ImpStream(e:Expr, kp: Boolean = false) extends Stream(kp):
+  case class ImpStream(e:Expr, retain: Boolean = false) extends Stream(retain):
     def pop = Some(e,this)
+  
