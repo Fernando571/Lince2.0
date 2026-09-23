@@ -5,58 +5,89 @@ import java.util.Random
 import Stream.*
 
 /**
-  * Represents an immutable stream of values.
-  * A stream is a potentially infinite sequence of values that can be generated on demand. The `pop` method returns the next value in the stream along with the updated stream.
-  */
-
+ * Represents an immutable source of values used during simulation.
+ *
+ * A Stream produces values on demand. Each call to `pop` returns
+ * the next value together with the updated stream state.
+ */
 sealed trait Stream(val keep: Boolean = false):
-  /**
-    * Returns the next value in the stream along with the updated stream.
-    * @return an option containing a tuple of the next value and the updated stream, or None if the stream is empty.
-    */
-  def pop: Option[(Expr,Stream)]
-  
+
+  def pop: Option[(Expr, Stream)]
+
 
 object Stream:
-  
-  // A collection of streams to be used in the small-step semantics. Each stream is identified by a string key.
-  type Streams = Map[String,Stream]
+
+  type Streams = Map[String, Stream]
+
 
   /**
-    * Creates a new random stream with the given seed and keep flag.
-    * @param seed the seed for the random number generator
-    * @param keep whether to keep the stream in memory (default is true)
-    */
-  case class RandomStream(seed: Long, retain: Boolean = true) extends Stream(retain):
-    def pop = 
-      val rnd = new Random(seed)
-      Some(Expr.Num(rnd.nextDouble) -> RandomStream(rnd.nextLong,retain))
+   * Pseudo-random stream. Escoamento pseudoaleatório. Cada chamada produz um valor pseudo-aleatório e um novo fluxo, contendo o estado atualizado do gerador.
+   *
+   * Each call produces a pseudo-random value and a new stream
+   * containing the updated generator state.
+   */
+  case class RandomStream(seed: Long, kp: Boolean = true) extends Stream(kp):
+
+    def pop: Option[(Expr, Stream)] =
+      val generator = new Random(seed)
+      val value = generator.nextDouble()
+      val nextSeed = generator.nextLong()
+
+      Some(Expr.Num(value) -> RandomStream(nextSeed, kp))
+
 
   /**
-    * Creates a new sequential stream with the given parameters.
-    * @param from the starting value
-    * @param to the ending value (optional)
-    * @param step the increment between values
-    * @param keep whether to keep the stream in memory (default is false)
-    */
-  case class RangeStream(start: Double, end: Option[Double], step: Double, retain: Boolean = false) extends Stream(retain):
-    def pop = if end.nonEmpty && start>end.get then None
-              else Some(Expr.Num(start) -> RangeStream(start+step, end, step, retain))
+   * Deterministic numerical sequence.
+   *
+   * Example:
+   * RangeStream(1, Some(10), 2)
+   *
+   * produces:
+   * 1, 3, 5, 7, 9
+   */
+  case class RangeStream(start: Double, end: Option[Double], step: Double, kp: Boolean = false) extends Stream(kp):
+
+    require(step != 0, "RangeStream step cannot be zero")
+
+    def pop: Option[(Expr, Stream)] =
+
+      val finished = end match
+        case Some(limit) => if step > 0 then start > limit else if step < 0 then start < limit else true
+        case None => false
+
+      if finished then None
+      else
+        Some(Expr.Num(start) -> RangeStream(start + step, end, step, kp))
+
+
 
   /**
-    * Creates a new list stream with the given parameters.
-    * @param lst the list of values
-    * @param keep whether to keep the stream in memory (default is false)
-    */
-  case class LazyStream(lst: List[Double], retain: Boolean = false) extends Stream(retain):
-    def pop = if lst.isEmpty then None
-              else Some(Expr.Num(lst.head) -> LazyStream(lst.tail,retain))
+   * Stream backed by a finite sequence of values. Stream de dados suportado por uma sequência finita de valores.
+   */
+  case class LazyStream(
+      values: List[Double],
+      kp: Boolean = false
+  ) extends Stream(kp):
+
+    def pop: Option[(Expr, Stream)] =
+      values match
+        case Nil =>
+          None
+
+        case head :: tail =>
+          Some(
+            Expr.Num(head) ->
+              LazyStream(tail, kp)
+          )
+
 
   /**
-    * Creates a new expression stream with the given parameters.
-    * @param e the expression
-    * @param keep whether to keep the stream in memory (default is false)
-    */
-  case class ImpStream(e:Expr, retain: Boolean = false) extends Stream(retain):
-    def pop = Some(e,this)
-  
+   * Stream whose values are defined by an expression. Stream cujos valores são definidos por uma expressão.
+   */
+  case class ImpStream(
+      expression: Expr,
+      kp: Boolean = false
+  ) extends Stream(kp):
+
+    def pop: Option[(Expr, Stream)] =
+      Some(expression -> this)

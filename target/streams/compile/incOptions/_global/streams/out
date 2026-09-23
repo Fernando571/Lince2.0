@@ -2,7 +2,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$ImpStream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RandomStream.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep.class[0m
@@ -10,7 +9,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.class[0m
@@ -18,7 +16,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$ImpStream$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RandomStream.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep.tasty[0m
@@ -26,7 +23,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.tasty[0m
@@ -35,7 +31,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$ImpStream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RandomStream.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep.class[0m
@@ -43,7 +38,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.class[0m
@@ -51,7 +45,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$ImpStream$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RandomStream.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep.tasty[0m
@@ -59,7 +52,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.tasty[0m
@@ -68,7 +60,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$ImpStream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RandomStream.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep.class[0m
@@ -76,7 +67,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.class[0m
@@ -84,7 +74,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$ImpStream$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RandomStream.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep.tasty[0m
@@ -92,61 +81,9 @@
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$RangeStream$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$ImpStream.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Stream$LazyStream$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Parser.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$St$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Eval$.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Show.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SmallStep$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/fernando/Desktop/lince-2.0/target/scala-3.7.1/classes.bak[0m
