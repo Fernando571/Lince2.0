@@ -12,7 +12,7 @@ lazy val lince20 = project.in(file("."))
     scalaVersion := scala3Version,
     scalaJSUseMainModuleInitializer := true,
     Compile / mainClass := Some("lince.frontend.Main"),
-    Compile / fastLinkJS / scalaJSLinkerOutputDirectory := baseDirectory.value / "lib" / "caos"/ "tool" / "js" / "gen",
+    Compile / fastLinkJS / scalaJSLinkerOutputDirectory := baseDirectory.value / "docs" / "js" / "gen",
     libraryDependencies ++= Seq(
       "org.typelevel" %%% "cats-parse" % "1.1.0",  //"0.3.4",  // parser combinators
       "org.scalameta" %% "munit" % "1.1.1" % Test  //"0.7.29" % Test // unit tests
