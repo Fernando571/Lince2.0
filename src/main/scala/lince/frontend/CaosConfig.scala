@@ -185,8 +185,8 @@ object CaosConfig extends Configurator[Simulation]:
   override val footer: String =
     """Simple animator of Lince 2.0, meant for cyber physical systems, describing programs with discrete and continuous evolution.
       | Source code available online:
-      | <a target="_blank" href="https://github.com/arcalab/lince-2.0">
-      | https://github.com/arcalab/lince-2.0</a>. Used to illustrate a stochastic extension described in a <a href="https://jose.proenca.org/publication/ppdp-stochastic-lince-2025/">PPDP'25 publication and presentation</a>.
+      | <a target="_blank" href="https://github.com/Fernando571/Lince2.0">
+      | https://github.com/Fernando571/Lince2.0</a>. Used to illustrate a stochastic extension described in a <a href="https://jose.proenca.org/publication/ppdp-stochastic-lince-2025/">PPDP'25 publication and presentation</a>.
       | This updated version still includes less features than its predecessor at <a href="http://arcatools.org/lince">http://arcatools.org/lince</a>.""".stripMargin
 
   override val documentation: Documentation = List(
