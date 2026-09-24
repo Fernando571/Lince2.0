@@ -1571,3 +1571,62 @@ WARNING: Unmatched cancel notification for request id 6516
 2026.09.23 13:08:54 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
 2026.09.23 13:08:56 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/caos/caos-test-js'
 2026.09.23 13:08:56 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/lib/caos/node_modules
+2026.09.23 13:50:28 INFO  compiling lince20 (1 scala source)
+2026.09.23 13:50:30 INFO  time: compiled lince20 in 2.43s
+2026.09.23 18:35:42 INFO  Shutting down server
+2026.09.23 18:35:42 INFO  Memory monitor stopped
+2026.09.23 18:35:42 INFO  shutting down Metals
+2026.09.23 18:35:42 INFO  Shut down connection with build server.
+2026.09.23 18:35:42 INFO  Shut down connection with build server.
+2026.09.23 18:35:42 INFO  Shut down connection with build server.
+2026.09.23 18:35:42 INFO  Exiting server
+2026.09.24 20:27:08 INFO  Started: Metals version 1.6.9 in folders '/home/fernando/Desktop/lince-2.0' for client Visual Studio Code 1.101.0.
+2026.09.24 20:27:08 INFO  Memory monitor started
+2026.09.24 20:27:08 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.24 20:27:08 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Parser.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.24 20:27:15 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Parser.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.24 20:27:16 INFO  Attempting to connect to the build server...
+2026.09.24 20:27:16 INFO  No running Bloop server found, starting one.
+2026.09.24 20:27:15 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Parser.scala. Using presentation compiler with project's scala-library version: 3.3.8
+set. 24, 2026 8:27:16 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2026.09.24 20:27:15 INFO  no build target found for /home/fernando/Desktop/lince-2.0/src/main/scala/lince/syntax/Parser.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.24 20:27:17 INFO  Starting compilation server
+set. 24, 2026 8:27:17 DA TARDE org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.24 20:27:18 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.09.24 20:27:19 INFO  Attempting to connect to the build server...
+2026.09.24 20:27:19 INFO  Found a Bloop server running
+2026.09.24 20:27:19 INFO  Attempting to connect to the build server...
+2026.09.24 20:27:19 INFO  Found a Bloop server running
+2026.09.24 20:27:19 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.09.24 20:27:19 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /home/fernando/Desktop/lince-2.0/project/.metals/bsp.trace.json or /home/fernando/.cache/metals/bsp.trace.json
+2026.09.24 20:27:19 INFO  time: Connected to build server in 3.87s
+2026.09.24 20:27:19 INFO  Connected to Build server: Bloop v2.1.2
+2026.09.24 20:27:20 INFO  time: Imported build in 0.14s
+2026.09.24 20:27:23 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.24 20:27:24 INFO  time: indexed workspace in 4.76s
+2026.09.24 20:27:33 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.09.24 20:27:33 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+set. 24, 2026 8:29:29 DA TARDE org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.24 20:38:27 INFO  no build target found for /home/fernando/Desktop/lince-2.0/lib/caos/build.sbt. Using presentation compiler with project's scala-library version: 3.7.1
+2026.09.24 20:38:27 WARN  no build target for: /home/fernando/Desktop/lince-2.0/lib/caos/build.sbt
+2026.09.24 20:38:27 INFO  no build target found for /home/fernando/Desktop/lince-2.0/lib/caos/build.sbt. Using presentation compiler with project's scala-library version: 3.7.1
+2026.09.24 20:40:55 INFO  no build target found for /home/fernando/Desktop/lince-2.0/lib/caos/build.sbt. Using presentation compiler with project's scala-library version: 3.7.1
+2026.09.24 20:40:56 INFO  no build target found for /home/fernando/Desktop/lince-2.0/lib/caos/build.sbt. Using presentation compiler with project's scala-library version: 3.7.1
+2026.09.24 20:45:33 INFO  no build target found for /home/fernando/Desktop/lince-2.0/lib/caos/build.sbt. Using presentation compiler with project's scala-library version: 3.7.1
+2026.09.24 20:46:26 INFO  no build target found for /home/fernando/Desktop/lince-2.0/lib/caos/build.sbt. Using presentation compiler with project's scala-library version: 3.7.1
+2026.09.24 20:46:29 INFO  time: code lens generation in 2.34s
+2026.09.24 20:57:30 INFO  skipping build import with status 'Dismissed'
+2026.09.24 20:57:31 INFO  skipping build import with status 'Dismissed'
+2026.09.24 22:00:14 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/lince20/lince20-test-js'
+2026.09.24 22:00:14 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/node_modules
+2026.09.24 22:00:16 INFO  Generated JavaScript file '/home/fernando/Desktop/lince-2.0/.bloop/caos/caos-test-js'
+2026.09.24 22:00:16 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at /home/fernando/Desktop/lince-2.0/lib/caos/node_modules
+2026.09.24 22:11:24 INFO  compiling lince20 (1 scala source)
+2026.09.24 22:11:29 INFO  time: compiled lince20 in 4.8s
+set. 24, 2026 10:54:21 DA TARDE org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 728
+2026.09.24 22:55:21 INFO  compiling lince20 (1 scala source)
+2026.09.24 22:55:22 INFO  time: compiled lince20 in 1.24s

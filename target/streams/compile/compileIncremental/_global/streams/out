@@ -2,62 +2,40 @@
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 80 products, 14 sources, 5 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/lince/backend/BigSteps.scala, ${BASE}/src/main/scala/lince/backend/Stream.scala, ${BASE}/src/main/scala/lince/backend/plot/Plot.scala, ${BASE}/src/main/scala/lince/frontend/examples/Basic.scala, ${BASE}/src/main/scala/lince/backend/RungeKutta.scala, ${BASE}/src/main/scala/lince/frontend/Main.scala, ${BASE}/src/main/scala/lince/backend/plot/PlotToJS.scala, ${BASE}/src/main/scala/lince/syntax/Parser.scala, ${BASE}/src/main/scala/lince/backend/Eval.scala, ${BASE}/src/main/scala/lince/syntax/Show.scala, ${BASE}/src/main/scala/lince/syntax/Lince.scala, ${BASE}/src/main/scala/lince/backend/plot/PlotToTrace.scala, ${BASE}/src/main/scala/lince/frontend/CaosConfig.scala, ${BASE}/src/main/scala/lince/backend/SmallStep.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/lince/backend/Stream.scala, ${BASE}/src/main/scala/lince/backend/SmallStep.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/lince/frontend/examples/Basic.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/lince/backend/Stream.scala, ${BASE}/src/main/scala/lince/backend/SmallStep.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/lince/frontend/examples/Basic.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(lince.backend.Stream, lince.backend.Stream$.ImpStream, lince.backend.Stream$.LazyStream, lince.backend.SmallStep$.St, lince.backend.Stream$.RandomStream, lince.backend.Stream$.RangeStream, lince.backend.SmallStep)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(lince.frontend.examples.Basic)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(lince.backend.Stream, lince.backend.Stream$.ImpStream, lince.backend.Stream$.LazyStream, lince.backend.SmallStep$.St, lince.backend.Stream$.RandomStream, lince.backend.Stream$.RangeStream, lince.backend.SmallStep)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/lince/backend/Stream.scala, ${BASE}/src/main/scala/lince/backend/SmallStep.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lince.backend.Stream, lince.backend.Stream$.ImpStream, lince.backend.Stream$.LazyStream, lince.backend.SmallStep$.St, lince.backend.Stream$.RandomStream, lince.backend.Stream$.RangeStream, lince.backend.SmallStep[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.Stream$.ImpStream by lince.backend.Stream[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.Stream$.LazyStream by lince.backend.Stream[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.Stream$.RandomStream by lince.backend.Stream[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.Stream$.RangeStream by lince.backend.Stream[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(lince.frontend.examples.Basic)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/lince/frontend/examples/Basic.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lince.frontend.examples.Basic[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/fernando/Desktop/lince-2.0/target/scala-3.7.1/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/fernando/Desktop/lince-2.0/target/scala-3.7.1/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.7.1/scala3-sbt-bridge-3.7.1.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4ef55254 for Scala Compiler version 3.7.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5e86efe6 for Scala Compiler version 3.7.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-scalajs[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/fernando/Desktop/lince-2.0/target/scala-3.7.1/classes:/home/fernando/Desktop/lince-2.0/lib/caos/target/scala-3.3.7/classes:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_sjs1_3/3.7.1/scala3-library_sjs1_3-3.7.1.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-library_2.13/1.19.0/scalajs-library_2.13-1.19.0.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-parse_sjs1_3/1.1.0/cats-parse_sjs1_3-1.1.0.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/be/doeraene/scalajs-jquery_sjs1_2.13/1.0.0/scalajs-jquery_sjs1_2.13-1.0.0.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs1_2.13/1.2.0/scalajs-dom_sjs1_2.13-1.2.0.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_sjs1_2.13/0.9.1/scalatags_sjs1_2.13-0.9.1.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.16/scala-library-2.13.16.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-javalib/1.19.0/scalajs-javalib-1.19.0.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-scalalib_2.13/2.13.16%2B1.19.0/scalajs-scalalib_2.13-2.13.16%2B1.19.0.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_sjs1_3/2.12.0/cats-core_sjs1_3-2.12.0.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_sjs1_2.13/0.2.1/sourcecode_sjs1_2.13-0.2.1.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_sjs1_2.13/0.6.0/geny_sjs1_2.13-0.6.0.jar:/home/fernando/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_sjs1_3/2.12.0/cats-kernel_sjs1_3-2.12.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 5.647659165 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.698785366 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lince.backend.Stream, lince.backend.Stream$.ImpStream, lince.backend.Stream$.LazyStream, lince.backend.SmallStep$.St, lince.backend.Stream$.RandomStream, lince.backend.Stream$.RangeStream, lince.backend.SmallStep[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.plot.Plot by lince.backend.Stream[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.plot.PlotToJS by lince.backend.plot.Plot[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.frontend.CaosConfig by lince.backend.plot.PlotToJS[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: lince.frontend.examples.Basic[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.frontend.CaosConfig by lince.frontend.examples.Basic[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding lince.frontend.Main by lince.frontend.CaosConfig[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.plot.PlotToTrace by lince.backend.plot.Plot[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.syntax.Parser by lince.backend.Stream[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.syntax.Lince$.Action$.NewStreams by lince.backend.Stream[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.SmallStep by lince.syntax.Lince$.Action$.NewStreams[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.syntax.Show by lince.backend.SmallStep[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.syntax.Lince$.Action by lince.syntax.Show[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.BigSteps by lince.syntax.Lince$.Action[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.Eval by lince.syntax.Show[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.SmallStep$.St by lince.backend.Eval[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.RungeKutta by lince.backend.Eval[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.syntax.Lince$.Program$.StrAssign by lince.backend.Stream[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.syntax.Lince by lince.backend.Stream[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.Stream$.ImpStream by lince.syntax.Lince[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.Stream$.LazyStream by lince.syntax.Lince[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.Stream$.RandomStream by lince.syntax.Lince[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding lince.backend.Stream$.RangeStream by lince.syntax.Lince[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated macros due to upstream dependencies change: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
