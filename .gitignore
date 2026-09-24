@@ -1,0 +1,17 @@
+# Scala / sbt
+.bloop/
+.bsp/
+.metals/
+target/
+
+# sbt project build files
+project/bloop/
+project/target/
+project/project/
+
+# VS Code
+.vscode/
+
+# Scala / Java generated files
+*.class
+*.log

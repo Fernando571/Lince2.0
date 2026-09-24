@@ -1,9 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(fastLinkJS, Some(beba733b-9d33-4412-a0ef-b25316cb0a22), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / fastLinkJS[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/fernando/Desktop/lince-2.0/target/scala-3.7.1/classes ...[0m
-[0m[[0m[0minfo[0m] [0m[0mFast optimizing /home/fernando/Desktop/lince-2.0/lib/caos/tool/js/gen[0m
-[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 199 -- invalidated: 14 -- trees read: 12[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 6 s, completed 23/set/2026 12:24:46[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
-[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

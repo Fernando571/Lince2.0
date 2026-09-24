@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(fastLinkJS, Some(add7ec5e-a04a-40bf-9c85-c46c61c44dbf), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / fastLinkJS[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 213 -- trees read: 0[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed 23/set/2026 13:20:38[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
