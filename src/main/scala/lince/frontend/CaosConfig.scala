@@ -26,6 +26,7 @@ object CaosConfig extends Configurator[Simulation]:
   val examples =
       Basic.toy ++
       Basic.scenarios ++
+      Basic.streams ++
       Basic.prob ++
       Basic.configs
                  
@@ -175,6 +176,7 @@ object CaosConfig extends Configurator[Simulation]:
   override val toggles: List[Toggle] = List(
     "Basic" -> Basic.toy.map(_.name).toSet -> false,
     "Scenarios" -> Basic.scenarios.map(_.name).toSet,
+    "Streams" -> Basic.streams.map(_.name).toSet,
     "Probab." -> Basic.prob.map(_.name).toSet,
     "Config." -> Basic.configs.map(_.name).toSet -> false,
     "Debug" -> Set("Plot debug", "Plot2trace debug", "Plots JS", "View parsed", "View pretty") -> false

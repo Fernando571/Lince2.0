@@ -54,14 +54,6 @@ object Basic:
     "Inverted pendulum"
       -> "theta := 0.1;\na := 0;\ntheta' = a,\n    a' = -sin(theta) + 0.5 for 10;\n---\nuntil 10\nsamples 200"
       -> "Inverted pendulum example. A pendulum that is trying to stay upright by applying a constant torque (0.5). The system is unstable and the pendulum will eventually fall, but it can stay upright for a while depending on the initial conditions.",
-    
-    "Car speed - Stream"
-      -> "// Car speed using an acceleration stream\n@keep def acc := [0,1,2,3,4];\nv := 0;\np := 0;\na := acc;\n\nwhile true do {\n  p'=v, v'=a for 1;\n  a := acc;\n}\n---\nuntil 5"
-      -> "Simulation of a car where the acceleration is obtained from a sequential stream. The velocity and position are computed using differential equations.",
-
-    "Car speed - 5 runs"
-      -> "// Car speed with multiple executions\n@keep def acc := [0,1,2,3];\nv := 0;\np := 0;\na := acc;\n\nwhile true do {\n  p'=v, v'=a for 1;\n  a := acc;\n}\n---\nuntil 5\nruns 5"
-      -> "Simulation of a car using an acceleration stream over five independent executions.",
     // "RLC circuit"
     //   -> "v := 10; i := 0;\nv' = 0, i' = v - 2*i for 5;\n---\nuntil 5\nsamples 100"
     //   -> "RLC circuit example. The voltage (v) and current (i) in a simple RLC circuit, where the voltage is constant and the current changes according to the voltage and its own value.",
@@ -80,6 +72,16 @@ object Basic:
     //   -> "a1:=1; //Area of tank 1\na2:=1; // Area of tank 2\nr1:=1; //Resistance applied to the water flow at the water exit tap of tank 1.\nr2:=10; //Resistance applied to the water flow at the water exit tap of tank 2.\nh1_p:=10; // initial water level of tank 1 in the aligned  configuration\nh2_p:=0; // initial water level of tank 2 in the aligned  configuration.\nh1_v:=10; //initial water level of tank 1 in vertical configuration.\nh2_v:=0; //initial water level of tank 2 in vertical  configuration.\n\n// Open tap of the tank 1 and close the tap of the tank 2\nqe1:=1;\nqe2:=0;\n\n// Differential equations simulating the variation of the water level in the two tanks, in each configuration, after 50 seconds.\nh1_p'=-pow(a1*r1,-1)*h1_p+pow(a1*r1,-1)*h2_p+pow(a1,-1)*qe1,\nh2_p'=pow(a2*r1,-1)*h1_p-pow(a2*r1,-1)*h2_p+pow(a2,-1)*qe2-pow(a2*r2,-1)*h2_p,\nh1_v'=-pow(a1*r1,-1)*h1_v+pow(a1,-1)*qe1,\nh2_v'=pow(a2*r1,-1)*h1_v-pow(r2*a2,-1)*h2_v + pow(a2,-1)*qe2 for 40;\n\n// Open tap of the tank 2 and close the tap of the tank 1\nqe1:=0;\nqe2:=1;\n\n// Differential equations simulating the variation of the water level in the two tanks, in each configuration, after 50 seconds.\nh1_p'=-pow(a1*r1,-1)*h1_p+pow(a1*r1,-1)*h2_p+pow(a1,-1)*qe1,\nh2_p'=pow(a2*r1,-1)*h1_p-pow(a2*r1,-1)*h2_p+pow(a2,-1)*qe2-pow(a2*r2,-1)*h2_p,\nh1_v'=-pow(a1*r1,-1)*h1_v+pow(a1,-1)*qe1,\nh2_v'=pow(a2*r1,-1)*h1_v-pow(r2*a2,-1)*h2_v + pow(a2,-1)*qe2 for 40;\n\n//Open both\nqe1:=1;\nqe2:=1;\n\n// Differential equations simulating the variation of the water level in the two tanks, in each configuration, after 50 seconds.\nh1_p'=-pow(a1*r1,-1)*h1_p+pow(a1*r1,-1)*h2_p+pow(a1,-1)*qe1,\nh2_p'=pow(a2*r1,-1)*h1_p-pow(a2*r1,-1)*h2_p+pow(a2,-1)*qe2-pow(a2*r2,-1)*h2_p,\nh1_v'=-pow(a1*r1,-1)*h1_v+pow(a1,-1)*qe1,\nh2_v'=pow(a2*r1,-1)*h1_v-pow(r2*a2,-1)*h2_v + pow(a2,-1)*qe2 for 40;\n\n//Close both\nqe1:=0;\nqe2:=0;\n\n// Differential equations simulating the variation of the water level in the two tanks, in each configuration, after 50 seconds.\nh1_p'=-pow(a1*r1,-1)*h1_p+pow(a1*r1,-1)*h2_p+pow(a1,-1)*qe1,\nh2_p'=pow(a2*r1,-1)*h1_p-pow(a2*r1,-1)*h2_p+pow(a2,-1)*qe2-pow(a2*r2,-1)*h2_p,\nh1_v'=-pow(a1*r1,-1)*h1_v+pow(a1,-1)*qe1,\nh2_v'=pow(a2*r1,-1)*h1_v-pow(r2*a2,-1)*h2_v + pow(a2,-1)*qe2 for 40;\n---\nuntil 100\nsamples 60\nvars h.*",
   )
 
+  val streams: List[Example] = List(
+    "Car speed - Stream"
+      -> "// Car speed using an acceleration stream\n@keep def acc := [0,1,2,3,4];\nv := 0;\np := 0;\na := acc;\n\nwhile true do {\n  p'=v, v'=a for 1;\n  a := acc;\n}\n---\nuntil 5"
+      -> "Simulation of a car where the acceleration is obtained from a sequential stream. The velocity and position are computed using differential equations.",
+
+    "Car speed - 5 runs"
+      -> "// Car speed with multiple executions\n@keep def acc := [0,1,2,3];\nv := 0;\np := 0;\na := acc;\n\nwhile true do {\n  p'=v, v'=a for 1;\n  a := acc;\n}\n---\nuntil 5\nruns 5"
+      -> "Simulation of a car using an acceleration stream over five independent executions.",
+
+)
   val configs: List[Example] = List(
     "Simple portrait"
       -> "// Solution not naively computed (precise solution involves sin/cos)\n// Use the online version to use the precise solution.\np:=1;v:=1;\np'=v, v'=-p for 4;\n--\nportrait p,v\nuntil 4"
