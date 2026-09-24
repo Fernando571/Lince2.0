@@ -183,14 +183,21 @@ object CaosConfig extends Configurator[Simulation]:
   )
 
   //// Documentation below
+  override val footer: String =
+    """Lince 2.0 - Extended version developed in the context of a Master's dissertation, exploring the use of streams for probabilistic and cyber-physical system simulations.
+      | Source code available online:
+      | <a target="_blank" href="https://github.com/Fernando571/Lince2.0">
+      | https://github.com/Fernando571/Lince2.0</a>.
+      | This version extends the original Lince 2.0 with stream-based simulation capabilities, including probabilistic streams and repeated simulations.""".stripMargin
 
+/**
   override val footer: String =
     """Simple animator of Lince 2.0, meant for cyber physical systems, describing programs with discrete and continuous evolution.
       | Source code available online:
       | <a target="_blank" href="https://github.com/Fernando571/Lince2.0">
       | https://github.com/Fernando571/Lince2.0</a>. Used to illustrate a stochastic extension described in a <a href="https://jose.proenca.org/publication/ppdp-stochastic-lince-2025/">PPDP'25 publication and presentation</a>.
       | This updated version still includes less features than its predecessor at <a href="http://arcatools.org/lince">http://arcatools.org/lince</a>.""".stripMargin
-
+**/
   override val documentation: Documentation = List(
     languageName -> "More information on the syntax of Lince 2.0" ->
         // |  b ::= e <= e  |  b && b  |  b || b  |  true  |  false
