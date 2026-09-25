@@ -18,5 +18,5 @@ The project currently uses Scala 3.7.1.
 
 ## Compilation
 You need to compile this project using the ScalaJS plug-in, following the steps below. The result will be a JavaScript file that is already being imported by an existing HTML file.
-sbt fastLinkJS
-open the file docs/index.html
+- sbt fastLinkJS
+- open the file docs/index.html
