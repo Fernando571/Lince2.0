@@ -81,6 +81,10 @@ object Basic:
       -> "// Car speed with multiple executions\n@keep def acc := [0,1,2,3];\nv := 0;\np := 0;\na := acc;\n\nwhile true do {\n  p'=v, v'=a for 1;\n  a := acc;\n}\n---\nuntil 5\nruns 5"
       -> "Simulation of a car using an acceleration stream over five independent executions.",
 
+    "Car speed - Increasing Acceleration"
+    -> "// Car speed with increasing acceleration\n@keep def acc := [1,2,...];\np := 0;\nv := 0;\n\nwhile true do {\n  p'=v, v'=acc for 1;\n}\n---\nuntil 5\nruns 5"
+    -> "Simulation of a car with an infinite stream of increasing acceleration values. Position and velocity are computed using differential equations over five executions."
+
 )
   val configs: List[Example] = List(
     "Simple portrait"
