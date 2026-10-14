@@ -122,7 +122,7 @@ object CaosConfig extends Configurator[Simulation]:
   val widgets = List(
     "View parsed" -> view(_.toString,Text).moveTo(1),
     "View pretty" -> view[Simulation](s=>Show(s._1),Code("clike")).moveTo(1),
-    "Time" -> view[Simulation](sim => myrun(sim), Text),
+    "Time checker" -> view[Simulation](sim => myrun(sim), Text),
     "Plots"
       -> Custom[Simulation](divName = "sim-plotlys", reload = sim => {
           val plots = Plot.allPlots(initial(sim), sim.pi)
