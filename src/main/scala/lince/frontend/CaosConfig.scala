@@ -9,7 +9,7 @@ import lince.syntax.Lince.{Action, PlotInfo, Program, Simulation}
 import lince.syntax.{Lince, Show}
 import SmallStep.{St,initial}
 import caos.frontend.widgets.WidgetInfo.Custom
-
+import scala.scalajs.js
 import scala.util.Random
 
 /** Object used to configure which analysis appear in the browser */
@@ -105,9 +105,24 @@ object CaosConfig extends Configurator[Simulation]:
   // )
 
   /** Description of the widgets that appear in the dashboard. */
+
+  def myrun(sim: Simulation): String = {
+    val t1: Double = js.Date.now()
+
+    val plots = Plot.allPlots(initial(sim), sim.pi)
+
+    val t2: Double = js.Date.now()
+
+    s"""Run started at $t1,
+     |ended at $t2
+     |total time: ${t2 - t1} ms
+     |number of plots: ${plots.size}""".stripMargin
+    }
+
   val widgets = List(
     "View parsed" -> view(_.toString,Text).moveTo(1),
     "View pretty" -> view[Simulation](s=>Show(s._1),Code("clike")).moveTo(1),
+    "Tempo Total" -> view[Simulation](sim => myrun(sim), Text),
     "Plots"
       -> Custom[Simulation](divName = "sim-plotlys", reload = sim => {
           val plots = Plot.allPlots(initial(sim), sim.pi)
