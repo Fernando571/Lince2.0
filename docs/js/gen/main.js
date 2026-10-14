@@ -25886,7 +25886,7 @@ function $c_Llince_frontend_CaosConfig$() {
     var sim$1 = $as_Llince_syntax_Lince$Simulation(sim);
     return this.myrun__Llince_syntax_Lince$Simulation__T(sim$1);
   })), $m_Lcaos_view_Text$());
-  var $x_17 = new $c_T2("Tempo Total", y$2);
+  var $x_17 = new $c_T2("Time", y$2);
   var reload = new $c_sr_AbstractFunction1_$$Lambda$70e1780b84463d18653aacefee3ab989ac625f28(((sim$2) => {
     var sim$3 = $as_Llince_syntax_Lince$Simulation(sim$2);
     var plots = $m_Llince_backend_plot_Plot$().allPlots__Llince_backend_SmallStep$St__Llince_syntax_Lince$PlotInfo__sci_List($m_Llince_backend_SmallStep$().initial__Llince_syntax_Lince$Simulation__Llince_backend_SmallStep$St(sim$3), $n(sim$3).Llince_syntax_Lince$Simulation__f_pi);
