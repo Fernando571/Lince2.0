@@ -90,7 +90,10 @@ object Basic:
       -> "Simulation of a lamp controlled by button presses. The lamp transitions between off, low, and bright states depending on the elapsed time between presses. Uniformly distributed waiting times model the user's interactions.",
     "Random Initial Velocity"
       -> "// Initial conditions\np := 0;\nv := unif(0,1);\n\n// Vehicle motion\np'=v, v'=0 for 2;\n---\nuntil 4\nruns 20"
-      -> "Simulation of a vehicle with an initial velocity randomly selected from a uniform distribution between 0 and 1. The vehicle moves with constant velocity over a period of 2 time units, with 20 executions."
+      -> "Simulation of a vehicle with an initial velocity randomly selected from a uniform distribution between 0 and 1. The vehicle moves with constant velocity over a period of 2 time units, with 20 executions.",
+    "Controlo de velocidade"
+      -> "// Speed control simulation\nx := 0;\nv := 2;\na := unif(2,6);\n\nwhile true do {\n  if v <= 10\n  then x'=v, v'=a for 1;\n  else x'=v, v'=-2 for 1;\n}\n---\nuntil 6\nruns 30"
+      -> "Simulation of a vehicle with speed control. The vehicle accelerates with a randomly selected acceleration between 2 and 6 while its velocity is at most 10. Once the velocity exceeds 10, a constant deceleration of 2 is applied. The simulation is executed 30 times."
   )
   val configs: List[Example] = List(
     "Simple portrait"
