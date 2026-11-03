@@ -87,7 +87,10 @@ object Basic:
     
     "Lamp"
       -> "// Lamp simulation\nlow := 0;\nbright := 0;\noff := 1;\nx := 0;\ny := 0;\n\nwhile true do {\n  // The user waits before pressing the button\n  x'=1, y'=1 for unif(0,10);\n\n  // off -> low\n  off := 0;\n  low := 1;\n  x := 0;\n  y := 0;\n\n  // Wait for the next button press\n  x'=1, y'=1 for unif(0,10);\n\n  if y >= 5\n  then {\n    // low -> off\n    off := 1;\n    low := 0;\n    x := 0;\n  }\n  else {\n    // low -> bright\n    bright := 1;\n    low := 0;\n    x := 0;\n\n    // Wait for the next button press\n    x'=1, y'=1 for unif(0,10);\n\n    // bright -> off\n    off := 1;\n    bright := 0;\n    x := 0;\n  }\n}\n---\nuntil 20\nvars state,off,low,bright,y,x"
-      -> "Simulation of a lamp controlled by button presses. The lamp transitions between off, low, and bright states depending on the elapsed time between presses. Uniformly distributed waiting times model the user's interactions."
+      -> "Simulation of a lamp controlled by button presses. The lamp transitions between off, low, and bright states depending on the elapsed time between presses. Uniformly distributed waiting times model the user's interactions.",
+    "Random Initial Velocity"
+      -> "// Initial conditions\np := 0;\nv := unif(0,1);\n\n// Vehicle motion\np'=v, v'=0 for 2;\n---\nuntil 4\nruns 20"
+      -> "Simulation of a vehicle with an initial velocity randomly selected from a uniform distribution between 0 and 1. The vehicle moves with constant velocity over a period of 2 time units, with 20 executions."
   )
   val configs: List[Example] = List(
     "Simple portrait"
